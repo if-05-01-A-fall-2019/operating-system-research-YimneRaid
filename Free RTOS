@@ -1,0 +1,18 @@
+free RTOS
+
+1.) What’s that?
+  A Real Time Operating System is an operating system that is optimised for use in embedded/real time applications. 
+  Their primary objective is to ensure a timely and deterministic response to events. An event can be external, like a limit switch being hit, or internal like
+  a character being received.
+  The kernel type is Microkernel and it has a MIT-License.
+  It is designed to be small and simple and it is written in C and consists of only 3 C-Files.
+
+2.) some features: 
+   * Designed to be small, simple and easy to use. Typically a RTOS kernel binary image will be in the region of 4K to 9K bytes.
+   * Cross development from a standard Windows host.
+   * includes a tickless mode for low power applications.
+   
+3.) History: 
+   * The FreeRTOS kernel was originally developed by Richard Barry around 2003, and was later developed and maintained by Richard’s company, Real Time 
+   Engineers Ltd. FreeRTOS was a runaway success, and in 2017 Real Time Engineers Ltd. passed
+   stewardship of the FreeRTOS project to Amazon Web Services (AWS). Richard continues to work on FreeRTOS as part of an AWS team.
